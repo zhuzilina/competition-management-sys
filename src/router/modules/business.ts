@@ -100,6 +100,12 @@ export default [
         meta: { title: "总览" }
       },
       {
+        path: "/competition/activities",
+        name: "CompActivities",
+        component: () => import("@/views/competition/activities/index.vue"),
+        meta: { title: "竞赛活动" }
+      },
+      {
         path: "/competition/search",
         name: "CompSearch",
         component: () => import("@/views/competition/search/index.vue"),
